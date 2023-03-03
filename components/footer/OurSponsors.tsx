@@ -56,7 +56,7 @@ function OurSponsors() {
         modules={[FreeMode, Autoplay]}
       >
         {[logo4, logo1, logo2, logo3, logo5].map((logo, index) => (
-          <SwiperSlide>
+          <SwiperSlide key={index}>
             <Image
               className="m-auto w-full"
               key={index}
