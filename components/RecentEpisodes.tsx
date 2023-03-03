@@ -1,7 +1,7 @@
 import Image from "next/image";
-import image1 from "../public/assets/images/episodes/image1.png";
-import image2 from "../public/assets/images/episodes/image2.png";
-import image3 from "../public/assets/images/episodes/image3.png";
+import ep1 from "../public/assets/images/episodes/ep1.png";
+import ep2 from "../public/assets/images/episodes/ep2.png";
+import ep3 from "../public/assets/images/episodes/ep3.png";
 
 import playBtn from "../public/assets/icons/playBtn.svg";
 import EpisodeIcon from "../public/assets/icons/EpisodeIcon.svg";
@@ -10,17 +10,17 @@ const episodes = [
   {
     title: "Ep 1: How to build a world-class business brand",
     desc: "Lorem ipsum at vero eos et accusam et justo duo dolores et ea rebum.",
-    image: image1,
+    image: ep1,
   },
   {
     title: "Ep 2: Getting the first 100 customers for your business",
     desc: "Lorem ipsum at vero eos et accusam et justo duo dolores et ea rebum.",
-    image: image2,
+    image: ep2,
   },
   {
     title: "Ep 3: Should I raise money for my startup, or not?",
     desc: "Lorem ipsum at vero eos et accusam et justo duo dolores et ea rebum.",
-    image: image3,
+    image: ep3,
   },
 ];
 
