@@ -8,7 +8,7 @@ import "swiper/css/free-mode";
 import "swiper/css/pagination";
 
 // import required modules
-import { FreeMode, Autoplay, Pagination } from "swiper";
+import { FreeMode, Autoplay } from "swiper";
 
 import logo5 from "../../public/assets/sponsors/Logo5.svg";
 import logo1 from "../../public/assets/sponsors/Logo1.svg";
