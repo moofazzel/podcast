@@ -3,6 +3,7 @@ import Head from "next/head";
 import { Inter } from "next/font/google";
 import Layout from "@/components/layout/Layout";
 import Banner from "@/components/banner/Banner";
+import RecentEpisodes from "@/components/RecentEpisodes";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,6 +19,7 @@ export default function Home() {
         </Head>
         <main>
           <Banner />
+          <RecentEpisodes />
         </main>
       </Layout>
     </>

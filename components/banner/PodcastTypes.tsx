@@ -7,7 +7,7 @@ import Spotify4 from "../../public/assets/icons/Spotify1.svg";
 
 function PodcastTypes() {
   return (
-    <div className="container md:p-0 my-10">
+    <div className="container my-10">
       <div className="lg:flex items-center justify-center lg:justify-between gap-10">
         <h3 className="flex flex-shrink-0 text-2xl lg:text-xl xl:text-2xl font-bold text-pDark mb-6 lg:mb-0">
           Podcast Available On
