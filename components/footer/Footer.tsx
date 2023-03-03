@@ -1,10 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 import logoWhite from "../../public/logoWhite.svg";
+
 import ApplePodcast from "../../public/assets/icons/ApplePodcast.svg";
 import GooglePodcast from "../../public/assets/icons/GooglePodcast.svg";
 import Soundcloud from "../../public/assets/icons/Soundcloud.svg";
 import Spotify from "../../public/assets/icons/Spotify.svg";
+
 import BottomFooter from "./BottomFooter";
 import OurSponsors from "./OurSponsors";
 

@@ -18,7 +18,7 @@ import logo4 from "../../public/assets/sponsors/Logo4.svg";
 
 function OurSponsors() {
   return (
-    <div className="w-full max-w-7xl bg-pMain p-[72px] absolute -mt-[190px] top-0 left-1/2 -translate-x-1/2 ">
+    <div className="w-full lg:max-w-5xl xl:max-w-7xl bg-pMain p-[72px] absolute -mt-[190px] top-0 left-1/2 -translate-x-1/2 ">
       <h4 className="text-white text-2xl sm:text-[2rem] font-bold text-center pb-[50px] md:pb-[64px] ">
         Our Sponsors
       </h4>
