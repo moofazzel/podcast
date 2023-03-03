@@ -6,11 +6,13 @@ import GooglePodcast from "../../public/assets/icons/GooglePodcast.svg";
 import Soundcloud from "../../public/assets/icons/Soundcloud.svg";
 import Spotify from "../../public/assets/icons/Spotify.svg";
 import BottomFooter from "./BottomFooter";
+import OurSponsors from "./OurSponsors";
 
 function Footer() {
   return (
     <>
-      <footer className="bg-pDark pb-10 pt-36">
+      <footer className="bg-pDark pb-10 pt-40 relative mt-[203px] ">
+        <OurSponsors />
         <div className="container px-5 md:px-0">
           <div className="grid grid-cols-1  sm:grid-cols-2 lg:grid-cols-4">
             <div className="col-span-full lg:col-span-1 mb-4 lg:mb-0">
