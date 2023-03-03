@@ -18,8 +18,8 @@ import logo4 from "../../public/assets/sponsors/Logo4.svg";
 
 function OurSponsors() {
   return (
-    <div className="w-full lg:max-w-5xl xl:max-w-7xl bg-pMain p-[72px] absolute -mt-[190px] top-0 left-1/2 -translate-x-1/2 ">
-      <h4 className="text-white text-2xl sm:text-[2rem] font-bold text-center pb-[50px] md:pb-[64px] ">
+    <div className="w-full lg:max-w-5xl xl:max-w-7xl bg-pMain p-14 lg:p-[72px] absolute -mt-[180px] top-0 left-1/2 -translate-x-1/2 ">
+      <h4 className="text-white text-2xl sm:text-[2rem] font-bold text-center pb-[40px] md:pb-[55px] ">
         Our Sponsors
       </h4>
 
@@ -45,10 +45,6 @@ function OurSponsors() {
             slidesPerView: 3,
             spaceBetween: 40,
           },
-          "@1.25": {
-            slidesPerView: 4,
-            spaceBetween: 40,
-          },
           "@1.50": {
             slidesPerView: 5,
             spaceBetween: 50,
@@ -62,7 +58,7 @@ function OurSponsors() {
         {[logo4, logo1, logo2, logo3, logo5].map((logo, index) => (
           <SwiperSlide>
             <Image
-              className="m-auto"
+              className="m-auto w-full"
               key={index}
               src={logo}
               alt="Our Sponsors"

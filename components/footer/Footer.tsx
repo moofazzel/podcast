@@ -13,7 +13,7 @@ import OurSponsors from "./OurSponsors";
 function Footer() {
   return (
     <>
-      <footer className="bg-pDark pb-10 pt-40 relative mt-[203px] ">
+      <footer className="bg-pDark pb-6 md:pb-10 pt-24 md:pt-32 lg:pt-40 relative mt-60 md:mt-[303px] ">
         <OurSponsors />
         <div className="container px-5 md:px-0">
           <div className="grid grid-cols-1  sm:grid-cols-2 lg:grid-cols-4">

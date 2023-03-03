@@ -10,7 +10,12 @@ function Header() {
         <Link className="text-lg font-bold" href={"/"}>
           <Image src={Logo} alt="Logo" />
         </Link>
-        <Link href={"/"}>About </Link>
+        <Link
+          className="hover:text-pBlue transition-all duration-300"
+          href={"/about"}
+        >
+          About
+        </Link>
       </header>
     </>
   );
